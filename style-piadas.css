@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.6), rgba(0, 0, 255, 0.6)), url('https://www.fatosdesconhecidos.com.br/wp-content/uploads/2017/12/2-183-1200x675.jpg');
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.piada {
+    text-align: center;
+}
+
+.pergunta {
+    font-size: 38px;
+    color: white;
+}
+
+.botao {
+    background-color: blue;
+    color: white;
+    padding: 30px 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.botao:hover {
+    background-color: lightblue;
+}
+
+.resposta {
+    font-size: 30px;
+    color: white;
+}

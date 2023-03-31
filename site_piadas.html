@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minhas piadas de tiozão</title>
+    <link rel="stylesheet" type="text/css" href="style-piadas.css">
+</head>
+<body>
+    <h1>Minhas piadas de tiozão</h1>
+    <div class="piada">
+        <p class="pergunta">Por que o elefante não usa computador?</p>
+        <button class="botao">Ver resposta</button>
+        <p class="resposta" style="display: none;">Porque ele tem medo do mouse.</p>
+    </div>
+    <div class="piada">
+        <p class="pergunta">Por que a galinha atravessou a rua?</p>
+        <button class="botao">Ver resposta</button>
+        <p class="resposta" style="display: none;">Para chegar ao bar do outro lado.</p>
+    </div>
+    <div class="piada">
+        <p class="pergunta">Qual é a comida que liga e desliga?</p>
+        <button class="botao">Ver resposta</button>
+        <p class="resposta" style="display: none;">O Strog-ON-OFF.</p>
+    </div>
+    <div class="piada">
+        <p class="pergunta">Sabe por que tomar suco devagar é mais gostoso?</p>
+        <button class="botao">Ver resposta</button>
+        <p class="resposta" style="display: none;">Por que fica mais sucolento.</p>
+    </div>
+    <!-- Adicione mais piadas aqui -->
+    <script>
+        var botoes = document.querySelectorAll('.botao');
+        for (var i = 0; i < botoes.length; i++) {
+            botoes[i].addEventListener('click', function() {
+                this.style.display = 'none';
+                this.nextElementSibling.style.display = 'block';
+            });
+        }
+    </script>
+</body>
+</html>
